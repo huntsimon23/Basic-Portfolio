@@ -1,13 +1,14 @@
 header {
     background-color: #ffffff;
     border-color: #cccccc;
-    border-width: 5px;
+    border-width: 1px;
+    border-style: solid;
     overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
     position: relative;
-    top: 0px;
-    text-align: center;
-    vertical-align: middle;
+    top: -10px;
+    height: 77px;
 }
 
 .nav-bar {
@@ -25,19 +26,24 @@ li
 header a {
     float: right;
     color: #777777;
-    padding: 14px 16px;
-    font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
 }
 
 h1 {
     background-color: #4aaaa5;
     float: left;
     color: white;
+    padding: 10px;
 }
 
 h2 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    position: relative;
+    top: -10px;
 }
 .content {
     width: 930px;
@@ -45,6 +51,8 @@ h2 {
     margin: 0 auto;
     align-items: center;
     border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
     position: relative;
     bottom: -40px;
     background-color: #ffffff;
@@ -69,16 +77,24 @@ hr {
 
 .footer {
     border-top: 8px solid #4aaaa5;
+    font-size: 12px;
     text-align: center;
-    height: 25px;
+    height: 40px;
     width: 960px;
     position: relative;
     bottom: -75px;
     margin: 0 auto;
     background-color: #666666;  
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    vertical-align: baseline;
 }
 
 ul {
-    padding: 0px;
+    padding: 15px;
+    margin: 0px;
+}
+
+form {
+    width: 960px;
 }
