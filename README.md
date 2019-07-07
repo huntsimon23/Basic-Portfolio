@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Homework Assignment Due Wed 2/27
+First attempt at a portfolio template in basic HTML only
